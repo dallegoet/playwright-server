@@ -20,7 +20,7 @@ Then run the following command:
 docker run --env-file .env.local -p 3000:3000 dallegoet/playwright-server
 ```
 
-## Connect from a playwright client
+# Connect from a playwright client
 
 ```typescript
 const browser = await playwright.chromium.connect("ws://localhost:3000", {
