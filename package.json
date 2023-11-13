@@ -1,0 +1,30 @@
+{
+  "name": "@dallegoet/playwright-server",
+  "version": "1.0.0",
+  "description": "playwright server boosted with stealth and adblock plugins.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "playwright",
+    "stealth",
+    "scraping"
+  ],
+  "author": "Dimitri Allegoet",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.39.0",
+    "@types/http-proxy": "^1.17.14",
+    "@types/node": "^20.9.0",
+    "esbuild": "0.19.5",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "http-proxy": "^1.18.1",
+    "playwright": "^1.39.0",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "winston": "^3.11.0"
+  }
+}
