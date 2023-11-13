@@ -17,7 +17,7 @@ ACCESS_TOKEN=your_access_token
 Then run the following command:
 
 ```bash
-docker run --env-file .env.local  -p 3000:3000 dallegoet/playwright-server
+docker run --env-file .env.local -p 3000:3000 dallegoet/playwright-server
 ```
 
 ## Connect from a playwright client
